@@ -1,4 +1,4 @@
-# Northern_Red_Oak_Climate_Change_Analysis
+# Northern Red Oak Climate Change Analysis
 
 Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
 
