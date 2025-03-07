@@ -21,13 +21,12 @@ Evaluating the effects of climate change and fire occurance on northern red oak 
 [Link to data source](https://github.com/wpetry/USTreeAtlas/tree/main)
 3. Spatial wildfire occurrence data for the United States, 1992-2020
 [Link to data source](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6)
+4. Links to images used:  [Link to image source](https://www.minnesotawildflowers.info/tree/northern-red-oak)
 
 * Initial Data projection: WGS 84 (EPSG:4326)
 * Final Map projection:WGS 84 (EPSG:4326)
 
 ### Project Background
-
-If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
 
 ### Purpose
 
@@ -37,9 +36,6 @@ Northern red oak (*Quercus rubra*) like many other tree species, will most defin
 
 Example of in process map ![in process image](filepath)
 
-You can describe the mapmapking process in this section, including images where it helps to describe the process.
-
-You can also use some lists, and here's some formatting ideas.
 
 1. First step in the mapmaking process was to find suitable data sets. I conducted a google search for data sets (shape files and geojson files) relating to northern red oak.
 2. I loaded those files into QGIS where I further manipulated the data. I had 3 data files that included northern red oak range, fire occurrence data from 1992-2020, and modeling data on future northern red oak range with climate change.
@@ -52,7 +48,18 @@ You can also use some lists, and here's some formatting ideas.
 
 ### Map Summary
 
-What are the key findings to take from your map and the overall mapmaking process?
+In order to help reduce the impact of climate change and the compounding effects of fire, assisted migration could help sustain the northern red oak populations. Projecting this data into maps can help direct resources where suitable habitat might be lost or gained. Assisted migration will undoubtedly be pivotal in preventing significant species decline of northern red oak and other North American tree species.
+
+References:
+
+Etterson, J. R., Cornett, M. W., White, M. A., & Kavajecz, L. C. (2020). Assisted migration across fixed seed zones detects adaptation lags in two major North American tree species. Ecological Applications, 30(5), e02092.
+
+Iverson, L. R., Prasad, A. M., Matthews, S. N., & Peters, M. (2008). Estimating potential habitat for 134 eastern US tree species under six climate scenarios. Forest ecology and management, 254(3), 390-406.
+
+Knott, J. A., Liang, L., Dukes, J. S., Swihart, R. K., & Fei, S. (2023). Phenological response to climate variation in a northern red oak plantation: Links to survival and productivity. Ecology, 104(3), e3940.
+
+U.S. Department of Agriculture. (n.d.). Quercus rubra L. plant guide. https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_quru.pdf
+
 
 ## Final Project Link
 
