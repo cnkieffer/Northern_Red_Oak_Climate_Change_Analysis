@@ -34,9 +34,6 @@ Northern red oak (*Quercus rubra*) like many other tree species, will most defin
 
 ### Mapmaking Process
 
-Example of in process map ![in process image](filepath)
-
-
 1. First step in the mapmaking process was to find suitable data sets. I conducted a google search for data sets (shape files and geojson files) relating to northern red oak.
 2. I loaded those files into QGIS where I further manipulated the data. I had 3 data files that included northern red oak range, fire occurrence data from 1992-2020, and modeling data on future northern red oak range with climate change.
 3. For the northern red oak range data, I adjusted the color and opacity of the layer to make it more visually appealing.
@@ -44,6 +41,8 @@ Example of in process map ![in process image](filepath)
 5. I used the Clip processing tool in QGIS to select only the fire data within the current northern red oak range, future northern red oak range at low (RCP 4.5) emissions, and future northern red oak range at high (RCP 8.5) emissions.
 6. After selecting the fire range data accordingly, I used the Heatmap processing tool in QGIS to take the fire point data and project it as the number of fires within the oak range. This allows for a better identification of hotspots of reoccurring fire incidences.
 7. I then exported 6 separate maps for different data visualization. 
+8. The final maps used the project coordinate system EPSG: 4326 and the map scale was set at 1:11289743.
+
 
 
 ### Map Summary
