@@ -64,4 +64,4 @@ U.S. Department of Agriculture. (n.d.). Quercus rubra L. plant guide. https://pl
 
 Here you are linking from the README.md to the index.html.
 
-Please view the [final map online](www.github...)
+Please view the [final map online](https://cnkieffer.github.io/Northern_Red_Oak_Climate_Change_Analysis/)
