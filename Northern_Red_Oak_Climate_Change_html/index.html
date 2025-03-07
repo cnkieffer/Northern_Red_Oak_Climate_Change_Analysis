@@ -24,6 +24,7 @@
       margin: 10px auto;
     }
 
+
     h1 {
       font-family: 'Open Sans', sans-serif;
       font-weight: 300;
@@ -117,6 +118,27 @@
         width: 100%;
       }
     }
+
+    #footer-content {
+    text-align: left;    /* Ensures all content aligns left */
+    margin-left: 0;      /* Removes any inherited left margin */
+    padding-left: 0;     /* Ensures no extra padding pushes it right */
+    width: 100%;         /* Stays within section's 80% width */
+}
+
+/* Adjust <section> to ensure no extra spacing */
+section {
+    width: 80%;
+    margin: 10px auto;
+    padding-bottom: 20px; /* Optional: Adds space at bottom */
+}
+
+/* Ensure <ul> doesn’t indent unnecessarily */
+#footer-content ul {
+    padding-left: 20px;  /* Keeps list indentation consistent */
+    margin-left: 0;      /* Prevents extra shifting */
+}
+
   </style>
 </head>
 
@@ -199,36 +221,46 @@
         <img width="800" src="/maps/Northern_Red_Oak_Range_Future_High.png">
         <p class="linkbox">Figure 3. Predicted range shift of northern red oak in the Eastern U.S., using the geophysical fluid dynamics laboratory model, and under the emissions scenario of RCP 8.5. The current range of northern red oak is outlined for comparison. </p>
 
+
         <div class="column">
           <!-- Challenge map -->
           <img width="800" src="/maps/Current_Red_Oak_Fire_Range.png">
           <p class="linkbox">Figure 4. Number of fires within the current northern red oak range. Fire data is from 1992-2020. </p>
+
 
           <div class="column">
             <!-- Challenge map -->
             <img width="800" src="/maps/Future_Red_Oak_Fire_Range_Low.png">
             <p class="linkbox">Figure 5. Number of fires within the northern red oak range at low emissions (RCP 4.5). Fire data is from 1992-2020. </p>
     
-           <div class="column">
+
+          <div class="column">
               <!-- Challenge map -->
               <img width="800" src="/maps/Future_Red_Oak_Fire_Range_High.png">
               <p class="linkbox">Figure 6. Number of fires within the northern red oak range at high emissions (RCP 8.5). Fire data is from 1992-2020. </p>
    
-      </div>
-    </div>
 
-    <h3>Map details</h3>
-    <p>How was this map made?</p>
-
-    <p>
-      University of Kentucky New Maps Plus, Spring 2025.
-    </p>
-    <hr>
-    <ul>
-      <li>Visit my Github account <a href='https://github.com'>@cnkieffer</a> </li>
-      <li><a href="https://newmapsplus.github.io">New Maps Plus</a></li>
-    </ul>
-  </section>
-
-</body>
-</html>
+            </div>
+            <!-- Closing all nested columns -->
+            </div>
+            </div>
+            </div>
+            </div>
+            <!-- Closing row -->
+            </div>
+            
+            <!-- New container for bottom-left content -->
+            <div id="footer-content">
+                <h3>Map details</h3>
+                <p>How was this map made?</p>
+                <p>University of Kentucky New Maps Plus, Spring 2025.</p>
+                <hr>
+                <ul>
+                    <li>Visit my Github account <a href='https://github.com'>@cnkieffer</a></li>
+                    <li><a href="https://newmapsplus.github.io">New Maps Plus</a></li>
+                </ul>
+            </div>
+            
+            </section>
+            </body>
+            </html>
